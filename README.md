@@ -4,6 +4,10 @@ Dependencies: *libopenssl-dev, libopencv-dev, nodejs (optional)*
 
 I have needed random numbers to produce various keys and seeds. It seemed more fun to use my own random numbers. It is simple to implement as the heavy lifting is done by openssl and opencv. Inspired by Cloudfare's lava lamp wall.
 
+There are two things everyone wants to see on here: images and results. So as silly as it may seem, here are 32 random bytes!
+
+`70389f46b4e90b26b7ed9b3baf84b179e9bd9bbd6ace29dbc3d0f4e91dde76be`
+
 
 
 <img src="./setup.jpg" alt="setup.jpg" width="50%"/>
