@@ -31,6 +31,7 @@ COPY utils.h /app/
 COPY compile.sh /app/
 COPY make_cert.sh /app/
 COPY balloon_weight_server.js /app/
+COPY config.cfg /app/
 
 # Make the compile and cert scripts executable
 RUN chmod +x /app/compile.sh /app/make_cert.sh
