@@ -39,8 +39,8 @@ RUN chmod +x /app/compile.sh /app/make_cert.sh
 # Compile the C++ program
 RUN ./compile.sh
 
-# Create HTTPS certificate and key
-RUN ./make_cert.sh
+# Create HTTPS certificate and key. Dash doesn't understand source only bash does.
+RUN bash ./make_cert.sh
 
 # Command to run the Node.js server
 CMD ["node", "/app/balloon_weight_server.js"]
